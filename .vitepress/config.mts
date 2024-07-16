@@ -12,12 +12,12 @@ export default defineConfig({
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
-    sidebar: [
+    sidebar: [ // ici : côté gauche, sidebar
       {
-        text: 'Examples',
+        text: 'Introduction',
         items: [
-          { text: 'Lire la Documentation', link: '/markdown-examples' },
-          { text: 'Retourner au Hub', link: 'https://ttheglock.github.io' }
+          { text: 'Introduction', link: '/markdown-examples' },
+          { text: 'Examples', link: '/markdown-examples' }
         ]
       }
     ],
