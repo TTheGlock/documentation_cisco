@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: "Documentation Cisco"
-  text: "Documentation Cisco"
-  tagline: My great project tagline
+  # text: "Documentation Cisco"
+  tagline: Une documentation des commandes des appareils réseau de la marque Cisco
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Lire la Documentation
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Retourner au Hub Central
+      link: https://ttheglock.github.io
 
 features:
   - title: Feature A

@@ -3,12 +3,12 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Documentation Cisco",
-  description: "Documentation Cisco",
+  description: "Une documentation des commandes des appareils réseau de la marque Cisco",
   base: '/documentation_cisco/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Accueil', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
@@ -16,14 +16,14 @@ export default defineConfig({
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Lire la Documentation', link: '/markdown-examples' },
+          { text: 'Retourner au Hub', link: 'https://ttheglock.github.io' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/TTheGlock/documentation_cisco/' }
     ]
   }
 })
