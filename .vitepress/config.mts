@@ -7,8 +7,6 @@ export default defineConfig({
   base: '/documentation_cisco/',
   cleanUrls: true,
   themeConfig: {
-    logo: '/doro.png',
-
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Accueil', link: '/' },
@@ -34,4 +32,10 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/TTheGlock/documentation_cisco/' }
     ]
   },
+  head: [
+    [
+      'link',
+      { rel: 'icon', type: 'image/x-icon',  href: '/public/favicon.ico' }
+    ]
+  ]
 })
