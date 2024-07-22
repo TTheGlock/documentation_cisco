@@ -35,7 +35,7 @@ export default defineConfig({
   head: [
     [
       'link',
-      { rel: 'icon', type: 'image/x-icon',  href: '/public/doro.png' }
+      { rel: 'icon', type: 'image/x-icon',  href: '/doro.png' }
     ]
   ]
 
