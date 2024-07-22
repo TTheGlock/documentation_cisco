@@ -32,11 +32,11 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/TTheGlock/documentation_cisco/' }
     ]
   },
-  head: [
+  /* head: [
     [
       'link',
       { rel: 'icon', type: 'image/x-icon',  href: '/doro.png' }
     ]
-  ]
+  ] */
 
 })
