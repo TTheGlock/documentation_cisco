@@ -8,21 +8,34 @@ export default defineConfig({
   base: '/documentation_cisco/',
   cleanUrls: true,
   themeConfig: {
+    lastUpdated: {
+      text: 'Page mise à jour pour la dernière fois le ',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
+
     logo: '/doro.png',
     // https://vitepress.dev/reference/default-theme-config
 
-    nav: [
+    nav: [ // navbar (en haut)
       { text: 'Accueil', link: '/' },
-      { text: 'Documentation', link: '/introduction' }
+      { text: 'Documentation', 
+        items: [
+          { text: 'Avant de Commencer', link: '/avant_de_commencer' },
+          { text: 'À Remplir', link: '/a_remplir' },
+        ]
+      }
     ],
 
-    sidebar: [ // ici : côté gauche, sidebar
+    sidebar: [ // sidebar (côté gauche)
       {
-        text: 'Introduction',
+        text: 'Avant de Commencer',
         items: [
-          { text: 'Introduction', link: '/introduction' },
-          { text: 'Exemples Markdown', link: '/introduction/markdown-examples' },
-          { text: 'Exemples API', link: '/introduction/api-examples' }
+          { text: 'Introduction', link: '/avant_de_commencer' }, // ou /avant_de_commencer/introduction.md ?
+          { text: 'Exemples Markdown', link: '/avant_de_commencer/markdown-examples' },
+          { text: 'Exemples API', link: '/avant_de_commencer/api-examples' }
         ]
       },
       {
@@ -41,5 +54,8 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/TTheGlock/documentation_cisco/' }
     ]
   },
-  head: [['link', { rel: 'icon', type: "image/x-icon", href: '/documentation_cisco/favicon.ico' }]]
+
+  head: [['link', { rel: 'icon', type: "image/x-icon", href: '/documentation_cisco/favicon.ico' }]],
+
+  lastUpdated: true
 })

@@ -3,7 +3,7 @@ outline: deep
 layout: doc
 prev:
   text: 'Exemples Markdown'
-  link: '/introduction/markdown-examples'
+  link: '/avant_de_commencer/markdown-examples'
 ---
 
 # Runtime API Examples
