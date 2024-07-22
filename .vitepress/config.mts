@@ -8,7 +8,9 @@ export default defineConfig({
   base: '/documentation_cisco/',
   cleanUrls: true,
   themeConfig: {
+    logo: '/doro.png',
     // https://vitepress.dev/reference/default-theme-config
+    
     nav: [
       { text: 'Accueil', link: '/' },
       { text: 'Documentation', link: '/introduction' }
