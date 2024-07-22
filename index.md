@@ -13,10 +13,17 @@ hero:
     - theme: alt
       text: Retourner au Hub Central
       link: https://ttheglock.github.io
+    - theme: alt
+      text: GitHub
+      link: https://github.com/TTheGlock/documentation_cisco
+  image:
+    src: images/router-logo.webp
+    alt: router-logo
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 📝
+    title: Bonne compréhension
+    details: Documentation écrite de manière claire et concise, tout en abordant la plupart des thèmes
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C

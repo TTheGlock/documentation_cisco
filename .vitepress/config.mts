@@ -7,12 +7,12 @@ export default defineConfig({
   base: '/documentation_cisco/',
   cleanUrls: true,
   themeConfig: {
-    logo: '/images/doro.png',
+    logo: 'images/doro.png',
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Accueil', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Documentation', link: '/introduction' }
     ],
 
     sidebar: [ // ici : côté gauche, sidebar
@@ -20,7 +20,8 @@ export default defineConfig({
         text: 'Introduction',
         items: [
           { text: 'Introduction', link: '/introduction' },
-          { text: 'Examples', link: '/markdown-examples' }
+          { text: 'Exemples Markdown', link: '/introduction/markdown-examples' },
+          { text: 'Exemples API', link: '/introduction/api-examples' }
         ]
       }
     ],
