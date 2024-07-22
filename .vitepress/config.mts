@@ -10,7 +10,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/doro.png',
     // https://vitepress.dev/reference/default-theme-config
-    
+
     nav: [
       { text: 'Accueil', link: '/' },
       { text: 'Documentation', link: '/introduction' }
@@ -23,6 +23,12 @@ export default defineConfig({
           { text: 'Introduction', link: '/introduction' },
           { text: 'Exemples Markdown', link: '/introduction/markdown-examples' },
           { text: 'Exemples API', link: '/introduction/api-examples' }
+        ]
+      },
+      {
+        text: 'À Remplir',
+        items: [
+          { text: 'À Remplir', link: '/a_remplir' },
         ]
       }
     ],
