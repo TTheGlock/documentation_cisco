@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'fr-FR',
   title: "Documentation Cisco",
   description: "Une documentation des commandes des appareils réseau de la marque Cisco",
   base: '/documentation_cisco/',
@@ -32,5 +33,5 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/TTheGlock/documentation_cisco/' }
     ]
   },
-  head: [['link', { rel: 'icon', type: "image/x-icon", href: '../public/favicon.ico' }]]
+  head: [['link', { rel: 'icon', type: "image/x-icon", href: '/favicon.ico' }]]
 })
