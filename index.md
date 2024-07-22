@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Lire la Documentation
-      link: /markdown-examples
+      link: /introduction
     - theme: alt
       text: Retourner au Hub Central
       link: https://ttheglock.github.io

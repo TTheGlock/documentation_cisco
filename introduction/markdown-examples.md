@@ -3,7 +3,7 @@ outline: deep
 layout: doc
 prev:
   text: Introduction
-  link: /introduction/
+  link: /introduction
 next:
   text: 'Exemples API'
   link: '/introduction/api-examples'
