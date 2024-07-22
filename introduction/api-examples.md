@@ -1,5 +1,9 @@
 ---
 outline: deep
+layout: doc
+prev:
+  text: 'Exemples Markdown'
+  link: '/introduction/markdown-examples'
 ---
 
 # Runtime API Examples

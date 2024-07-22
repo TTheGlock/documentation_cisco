@@ -1,3 +1,14 @@
+---
+outline: deep
+layout: doc
+prev:
+  text: Introduction
+  link: /introduction/
+next:
+  text: 'Exemples API'
+  link: '/introduction/api-examples'
+---
+
 # Markdown Extension Examples
 
 This page demonstrates some of the built-in markdown extensions provided by VitePress.

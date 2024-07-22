@@ -17,7 +17,7 @@ hero:
       text: GitHub
       link: https://github.com/TTheGlock/documentation_cisco
   image:
-    src: images/router-logo.webp
+    src: /router-logo.webp
     alt: router-logo
 
 features:

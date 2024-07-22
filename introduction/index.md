@@ -1,5 +1,9 @@
 ---
+outline: deep
 layout: doc
+next:
+  text: 'Exemples Markdown'
+  link: '/introduction/markdown-examples'
 ---
 
 # Salut
