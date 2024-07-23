@@ -4,6 +4,9 @@ layout: doc
 prev:
   text: 'Exemples Markdown'
   link: '/avant_de_commencer/markdown-examples'
+next:
+  text: 'À Remplir'
+  link: '/avant_de_commencer/a_remplir'
 ---
 
 # Runtime API Examples
