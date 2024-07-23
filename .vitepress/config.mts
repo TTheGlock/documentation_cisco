@@ -62,5 +62,16 @@ export default defineConfig({
 
   head: [['link', { rel: 'icon', type: "image/x-icon", href: '/documentation_cisco/favicon.ico' }]],
 
-  lastUpdated: true
+  lastUpdated: true,
+
+  markdown: {
+    container: {
+      tipLabel: 'Astuce',
+      warningLabel: 'Attention Recommandée',
+      dangerLabel: 'Attention Requise',
+      infoLabel: 'Information',
+      detailsLabel: 'Détails'
+
+    }
+  }
 })

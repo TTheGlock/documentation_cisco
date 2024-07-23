@@ -8,7 +8,7 @@ next:
 
 # Introduction
 
-::: warning Attention Recommandée
+::: warning
 Cette documentation est en développement et peut ne pas représenter le produit final.
 
 Certains bugs et instabilités sont à prévoir.
