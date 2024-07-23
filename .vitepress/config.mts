@@ -8,6 +8,11 @@ export default defineConfig({
   base: '/documentation_cisco/',
   cleanUrls: true,
   themeConfig: {
+    docFooter: {
+      prev: 'Page précédente',
+      next: 'Page suivante'
+    },
+
     lastUpdated: {
       text: 'Page mise à jour pour la dernière fois le ',
       formatOptions: {
