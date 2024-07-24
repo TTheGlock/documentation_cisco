@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Lire la Documentation
-      link: /avant_de_commencer
+      link: /docs/avant_de_commencer/
     - theme: alt
       text: Retourner au Hub Central
       link: https://ttheglock.github.io
