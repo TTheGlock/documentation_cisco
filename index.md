@@ -24,9 +24,11 @@ features:
   - icon: 📝
     title: Bonne compréhension
     details: Documentation écrite de manière claire et concise, tout en abordant la plupart des thèmes
-  - title: Feature B
+  - icon: 📝
+    title: À remplir
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - icon: 📝
+    title: À remplir
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

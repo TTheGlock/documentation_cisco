@@ -14,9 +14,9 @@ export default defineConfig({
     },
 
     lastUpdated: {
-      text: 'Page mise à jour pour la dernière fois le ',
+      text: 'Page mise à jour le ',
       formatOptions: {
-        dateStyle: 'full',
+        dateStyle: 'medium',
         timeStyle: 'medium'
       }
     },
@@ -28,8 +28,8 @@ export default defineConfig({
       { text: 'Accueil', link: '/' },
       { text: 'Documentation', 
         items: [
-          { text: 'Avant de Commencer', link: '/avant_de_commencer' },
-          { text: 'À Remplir', link: '/a_remplir' },
+          { text: 'Avant de Commencer', link: '/docs/avant_de_commencer' },
+          { text: 'À Remplir', link: '/docs/a_remplir' },
         ]
       }
     ],
@@ -38,15 +38,15 @@ export default defineConfig({
       {
         text: 'Avant de Commencer',
         items: [
-          { text: 'Introduction', link: '/avant_de_commencer' }, // ou /avant_de_commencer/introduction.md ?
-          { text: 'Exemples Markdown', link: '/avant_de_commencer/markdown-examples' },
-          { text: 'Exemples API', link: '/avant_de_commencer/api-examples' }
+          { text: 'Introduction', link: '/docs/avant_de_commencer' }, // ou /avant_de_commencer/introduction.md ?
+          { text: 'Exemples Markdown', link: '/docs/avant_de_commencer/markdown-examples' },
+          { text: 'Exemples API', link: '/docs/avant_de_commencer/api-examples' }
         ]
       },
       {
         text: 'À Remplir',
         items: [
-          { text: 'À Remplir', link: '/a_remplir' },
+          { text: 'À Remplir', link: '/docs/a_remplir' },
         ]
       }
     ],
