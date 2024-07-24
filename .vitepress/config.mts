@@ -66,11 +66,11 @@ export default defineConfig({
 
   markdown: {
     container: {
-      tipLabel: 'Astuce',
-      warningLabel: 'Attention Recommandée',
-      dangerLabel: 'Attention Requise',
-      infoLabel: 'Information',
-      detailsLabel: 'Détails'
+      tipLabel: 'ASTUCE(S)',
+      warningLabel: 'ATTENTION RECOMMANDÉE',
+      dangerLabel: 'ATTENTION REQUISE',
+      infoLabel: 'INFORMATION(S)',
+      detailsLabel: 'DÉTAIL(S)'
 
     }
   }
