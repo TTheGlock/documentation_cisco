@@ -3,10 +3,10 @@ outline: deep
 layout: doc
 prev:
   text: 'Exemples Markdown'
-  link: '/avant_de_commencer/markdown-examples'
+  link: '/docs/avant_de_commencer/markdown-examples'
 next:
   text: 'À Remplir'
-  link: '/a_remplir/'
+  link: '/docs/a_remplir/'
 ---
 
 # Runtime API Examples

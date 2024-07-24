@@ -3,7 +3,7 @@ outline: deep
 layout: doc
 next:
   text: 'Exemples Markdown'
-  link: '/avant_de_commencer/markdown-examples'
+  link: '/docs/avant_de_commencer/markdown-examples'
 ---
 
 # Introduction

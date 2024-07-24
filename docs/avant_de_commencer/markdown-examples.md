@@ -3,10 +3,10 @@ outline: deep
 layout: doc
 prev:
   text: Introduction
-  link: /avant_de_commencer
+  link: /docs/avant_de_commencer
 next:
   text: 'Exemples API'
-  link: '/avant_de_commencer/api-examples'
+  link: '/docs/avant_de_commencer/api-examples'
 ---
 
 # Markdown Extension Examples
